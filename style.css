@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --primary-color: #082c44;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+}
+
+
+html , body{
+    height: 100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
